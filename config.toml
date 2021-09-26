@@ -2,7 +2,7 @@ baseURL = '205410149-ilham.netlify.app/'
 languageCode = 'en-us'
 title = 'Percobaan Web Pertama'
 theme = "ananke"
-copyright = Copyright (c) 2021, 205410149-Ilham Muliawan; Awas klo cuma copas ."
+copyright = "Copyright (c) 2021, 205410149-Ilham Muliawan; Awas klo cuma copas ."
 disqusShortname = "Ilham Muliawan"
 
 [author]
