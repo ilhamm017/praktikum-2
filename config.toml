@@ -1,4 +1,12 @@
-baseURL = 'http://example.org/'
+baseURL = '205410149-ilham.netlify.app/'
 languageCode = 'en-us'
 title = 'Percobaan Web Pertama'
 theme = "ananke"
+copyright = Copyright (c) 2021, 205410149-Ilham Muliawan; Awas klo cuma copas ."
+disqusShortname = "Ilham Muliawan"
+
+[author]
+    name = "Ilham Muliawan"
+    homepage = "https://web.facebook.com/ilham.muliawan.5"
+    bio = "Mahasiswa gitu aja"
+    image = "https://scontent.fsub3-1.fna.fbcdn.net/v/t1.6435-9/82075956_2512442599003423_7619897360407068672_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeG-0waJwmbo7Ab3Xa_htQAHsINcWjyKf5Cwg1xaPIp_kMSuwMXMNIaUugxEBWm0OC__bosMwCxZmuD0-JOi2Vz9&_nc_ohc=C_CBKny9GuEAX8_FsU2&_nc_ht=scontent.fsub3-1.fna&oh=18c4633605dae53b01924691b0bcb124&oe=61780454"
