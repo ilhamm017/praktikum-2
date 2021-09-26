@@ -1,12 +1,66 @@
-baseURL = '205410149-ilham.netlify.app/'
-languageCode = 'en-us'
-title = 'Percobaan Web Pertama'
-theme = "ananke"
-copyright = "Copyright (c) 2021, 205410149-Ilham Muliawan; Awas klo cuma copas ."
-disqusShortname = "Ilham Muliawan"
+baseURL = "https://205410149-ilham.netlify.app/"
+languageCode = "en-us"
+title = "Web Percobaan"
+disablePathToLower = false
 
-[author]
-    name = "Ilham Muliawan"
-    homepage = "https://web.facebook.com/ilham.muliawan.5"
-    bio = "Mahasiswa gitu aja"
-    image = "https://scontent.fsub3-1.fna.fbcdn.net/v/t1.6435-9/82075956_2512442599003423_7619897360407068672_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeG-0waJwmbo7Ab3Xa_htQAHsINcWjyKf5Cwg1xaPIp_kMSuwMXMNIaUugxEBWm0OC__bosMwCxZmuD0-JOi2Vz9&_nc_ohc=C_CBKny9GuEAX8_FsU2&_nc_ht=scontent.fsub3-1.fna&oh=18c4633605dae53b01924691b0bcb124&oe=61780454"
+#themesDir = "themes"
+theme = "Hugo-Octopress"
+
+
+# Disqus shortcode
+# Disable comments for any individual post by adding "comments: false" in its frontmatter
+disqusShortname = "lombokfoss"
+
+
+
+# Number of blog posts in each pagination page
+paginate = 6
+
+[permalinks]
+
+# Configures post URLs
+post = "/:slug/"
+
+# Make tags and categories work
+[indexes]
+    tag = "tags"
+    category = "categories"
+
+[params]
+
+    # If false, all of blog post will appear on front page (and in pagination)
+    truncate = true
+
+    # Author's name (appears in meta tags and under posts)
+    author = "Ilham Muliawan"
+
+    # This text appears in site header under website title
+    subtitle = "Blog Percobaan Untuk Praktikum"
+
+    # Search engine URL
+    searchEngineURL = "https://www.google.com/search"
+
+    # Text of the "Continue Reading" label. &rarr; == right arrow, but it gets messed up in the string so it was added to index.html manually
+    continueReadingText = "Baca selengkapnya..."
+
+    # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
+    googleAnalytics = "UA-XXXXX-X"
+
+  # Switch to true to enable RSS icon link
+    rss = true
+
+  # Set to true to use a text label for RSS instead of an icon
+  # This is overwritten by the "rss" setting
+  textrss = false
+
+    # Website's default description
+    defaultDescription = ""
+
+    # Populate this with your own search keywords - these will appear in meta tags
+    # defaultKeywords = ["keyword1" , "keyword2" , "keyword3" , "keyword4"]
+
+  # Set to true to hide ReadingTime on posts
+  disableReadingTime = false
+
+  # Set to true to disable downloading of remote Google fonts
+  disableGoogleFonts = false
